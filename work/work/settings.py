@@ -171,3 +171,11 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER='akashrawat851.ap@gmail.com'
 EMAIL_HOST_PASSWORD='ydrd caam dznw kvge'
+
+
+#git actions
+# Compatibility for Python 2 and 3
+try:
+    basestring
+except NameError:
+    basestring = str
